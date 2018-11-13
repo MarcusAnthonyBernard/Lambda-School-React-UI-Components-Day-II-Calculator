@@ -1,0 +1,71 @@
+.Calculator {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.clearbtn {
+    width: 375px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    padding: 25px;
+    margin-top: -7px;
+    border: 2px solid grey;
+    margin-left: -2px;
+}
+
+.clearbtn h1 {
+    color: black;
+}
+
+.clearequal {
+    display: flex;
+    flex-direction: row;
+}
+
+.dividebtn {
+    width: 125px;
+    height: 100px;
+    margin-top: -7px;
+    margin-right: -2px;
+    background-color: rgb(136, 4, 4);
+    border: 2px solid grey;
+}
+
+.numberbtn {
+    width: 125px;
+    height: 100px;
+    background-color: black;
+    border: 2px solid grey;
+}
+
+#endbtn {
+    background-color: rgb(136, 4, 4);
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    margin-right: -2px;
+    margin-left: -2px;
+}
+
+.TopDisplay {
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    text-align: right;
+    color: white;
+    border: 2px solid grey;
+}
+
+.TopDisplay h1 {
+    font-size: 80px;
+    font-family: arial;
+}
+
+
+
+
+
+
